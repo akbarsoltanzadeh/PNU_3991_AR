@@ -1,0 +1,426 @@
+﻿.container {
+    width: 210mm;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    background: #fff;
+    height: 100%;
+    position: relative
+}
+
+.lgbox {
+    width: 63%;
+    height: 100%;
+    background-color: #fbfbfb;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.smbox {
+    width: 37%;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+    background: #ffc835;
+}
+
+div.user-image {
+    box-shadow: initial;
+    margin-top: 40px;
+    width: 160px;
+    height: 160px;
+}
+
+    div.user-image:before {
+        content: '';
+        position: absolute;
+        width: 110%;
+        height: 110%;
+        border-radius: 50%;
+        border: 7px solid #fbfbfb;
+        top: -15px;
+        left: -15px;
+    }
+
+.smbox h1 {
+    text-align: center;
+    font-size: 21px;
+    margin-top: 20px;
+    color: #3e3925;
+}
+
+.job-title {
+    text-align: center;
+    font-size: 12px;
+    background: #373937;
+    padding: 5px 0;
+    color: #ffc835;
+}
+
+.infoo label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #3e392a;
+    display: none;
+}
+
+.infoo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contact-item span:nth-child(2) {
+    display: none;
+}
+
+div.contact-item span:first-child {
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+    margin-bottom: 5px;
+    line-height: 34px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+    background: #393836;
+    color: #ffc835;
+    margin-left: 5px;
+}
+
+.contact-item span:last-child {
+    font-size: 12px;
+    line-height: 38px;
+}
+
+.property-item_head {
+    border: none;
+}
+
+    .property-item_head label {
+        border: none;
+        color: #3e392a;
+        font-size: 15px;
+    }
+
+.skill__list ul.history li {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+div.item-row li > span label:first-child {
+    background: transparent;
+    color: #393836;
+    /* font-weight: bold; */
+    padding-right: 0;
+    width: 190px;
+    height: auto;
+}
+
+.property-item.skill__list .grade {
+    display: block;
+    float: left;
+}
+
+.item-row.w0 li > span {
+    width: 100%;
+    padding-left: 0;
+    height: auto;
+}
+
+div.item-row li > span label.grade i {
+    border-radius: unset;
+    background: #ffc835;
+    border: 1px solid #777777;
+}
+
+    div.item-row li > span label.grade i.tik {
+        background: #393836;
+        outline: 1px solid #ffc835;
+        outline-offset: -2px;
+    }
+
+.lgbox .property-item_head {
+    background: #565656;
+    width: 82%;
+    margin-left: 0;
+    height: 35px;
+    padding-top: 0;
+    text-align: right;
+    padding-right: 15px;
+    position: relative;
+}
+
+    .lgbox .property-item_head label {
+        line-height: 34px;
+        color: #ffffff;
+        font-size: 14px;
+    }
+
+    .lgbox .property-item_head span {
+        display: block;
+        position: absolute;
+        right: -89px;
+        top: -5px;
+        font-size: 32px;
+        color: #ffc835;
+        height: 44px;
+        width: 100px;
+        text-align: center;
+    }
+
+.about-us {
+    text-align: right;
+    font-size: 11px !important;
+    padding-right: 38px !important;
+    color: #373937;
+    margin: 5px 0 !important;
+    margin-bottom: 20px !important;
+}
+
+ul.history li {
+    width: 96%;
+}
+
+.lgbox ul.history {
+    margin-right: 36px !important;
+    width: 92%;
+    border-right: 2px solid #ffc835;
+    padding-right: 14px !important;
+    margin-bottom: 15px;
+}
+
+ul.history h2.subtitle {
+    position: relative;
+    font-size: 12px;
+    color: #373937;
+}
+
+.lgbox ul.history h2.subtitle:after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    background: #ffc835;
+    border-radius: 50%;
+}
+
+ul.history h3.subtitle {
+    font-style: normal;
+    font-size: 10px;
+    color: black;
+    margin-bottom: 0;
+}
+
+
+
+label.date {
+    font-size: 10px !important;
+    color: black;
+}
+
+h3.subtitle label {
+    background: transparent;
+    border: 1px solid #ffc835;
+    font-size: 8px !important;
+    color: #929292;
+}
+
+ul.history p.description {
+    font-size: 10px;
+    margin-top: 0;
+    text-align: right;
+    color: #6f6f6f;
+}
+
+p.project-link {
+    font-size: 10px;
+    color: #6f6f6f;
+}
+
+ul.list-item li p {
+    color: #373937;
+    font-size: 12px;
+    position: relative;
+    border-right: 0;
+}
+
+.lgbox ul.list-item li p:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    width: 10px;
+    height: 10px;
+    background: #ffc835;
+    right: -21px;
+    top: 5px;
+    border-radius: 50%;
+}
+
+p.project-link a {
+    color: #b58400;
+}
+
+.property-item.social__list ul.history li span label:first-child {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 34px;
+    padding: 0;
+    background: #393836;
+    color: #ffc835;
+    margin-left: 14px;
+}
+
+.language-item {
+    background: transparent !important;
+}
+
+    .language-item ~ span label:first-child {
+        width: 54% !important;
+        color: #252525 !important;
+    }
+
+.language__list div.item-row li > span {
+    width: 100%;
+    padding-left: 0;
+    height: 18px;
+}
+
+div.item-row li > span label {
+    float: left;
+}
+
+.language__list ul.history li {
+    width: 100%;
+}
+
+
+
+label.grade {
+    height: 7px;
+}
+
+small {
+    display: block;
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    line-height: 25px;
+    background: #393836;
+    color: #ffc835;
+    /* font-weight: bold; */
+    font-size: 10px;
+}
+
+.lgbox .skill__list div.item-row li > span label.grade i {
+    display: block;
+}
+
+.language-item {
+    color: #000000 !important;
+    width: 100% !important;
+    text-align: right !important;
+}
+
+.language__list ul.history h2.subtitle:after {
+    display: none;
+}
+
+.basic__about .property-item_head {
+    display: none;
+}
+
+.smbox .property-item_head {
+    padding-top: 0;
+    width: 90%;
+    border: 2px solid #565656;
+}
+
+    .smbox .property-item_head label {
+        font-size: 13px;
+    }
+
+.social__list ul.history li {
+    min-height: initial;
+}
+
+a.social-link {
+    word-break: break-word;
+}
+
+.infoo-head {
+    display: none;
+}
+
+.lgbox .skill__list ul.history {
+    margin-right: 20px !important;
+    width: 117mm;
+}
+
+    .lgbox .skill__list ul.history li {
+        width: 50%;
+    }
+
+.lgbox small {
+    display: none;
+}
+
+.smbox .skill__list div.item-row li > span label.grade i {
+    display: none;
+}
+
+.lgbox .property-item.skill__list .grade {
+    float: right;
+}
+
+.lgbox .skill__list div.item-row li > span label.grade i {
+    width: 33px;
+    border: 0;
+    margin: 7px 0;
+    margin-top: 0;
+}
+
+ul.history {
+    box-sizing: border-box;
+}
+
+.lgbox .property-item.social__list ul.history li span label:first-child {
+    background: #ffc835;
+    color: #565656;
+}
+
+.lgbox .social__list ul.history {
+    margin-right: 20px !important;
+}
+
+    .lgbox .social__list ul.history li {
+        width: 50%;
+    }
+
+.lgbox .property-item.social__list ul.history li span label:last-child {
+    float: right;
+}
+
+.lgbox .language__list ul.history li {
+    width: 50%;
+}
+
+.lgbox .language__list div.item-row li > span {
+    width: 80%;
+}
+
+.lgbox .language__list ul.history {
+    margin-right: 20px !important;
+}
+
+
+.lgbox div.item-row li > span label.grade i.tik {
+    background: #565656;
+}
+
+.smbox p.project-link a {
+    color: #0d65ff;
+}

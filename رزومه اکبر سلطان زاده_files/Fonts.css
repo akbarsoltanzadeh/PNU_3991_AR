@@ -1,0 +1,41 @@
+﻿@font-face {
+    font-family: 'SDF';
+    src: url('/Fonts/IRANSans-web.woff') format('woff'),url('/Fonts/IRANSans-Light-web.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'SDF';
+    src: url('/Fonts/IRANSans-Bold-web.woff') format('woff'),url('/Fonts/IRANSans-Bold-web.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'SansIrani';
+    src: url('/Fonts/IRANSans-Light-web.woff') format('woff'),url('/Fonts/IRANSans-Light-web.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'FarsNews';
+    src: url('/Fonts/Vazir.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'YekPezeshk';
+    src: url('/Fonts/IRANSansWeb.woff2') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Digiato';
+    src: url('/Fonts/IRANSansWeb_Light.woff2') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Digiato2';
+    src: url('/Fonts/OpenSans-Light.woff2') format('woff');
+    font-weight: normal;
+}
+
+
