@@ -1,0 +1,449 @@
+\documentclass[9pt]{beamer}
+\usetheme{Berkeley}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{multicol}
+
+
+\begin{document}
+
+\begin{frame}
+\section*{GATE Questions}
+\begin{flushright}
+ \texttt{Finite Automata} \hspace*{1cm} \textbf{121}
+\end{flushright}
+
+\vspace*{0.5cm}
+
+\vspace*{3mm}
+\hspace{-0.5cm}
+2. Consider the transitional system.\\
+\vspace*{3mm}
+
+\begin{center}
+\section{picture}
+\includegraphics[width=4cm,height=2cm]{121-1.png}
+\end{center}
+
+Which of the states are to be marked as starting state and fi nal state, respectively, so as to turn the
+above system into a DFA that accepts all strings having odd number of zeros and even number of 1’s?\\
+
+\vspace*{0.2cm}
+$a) q _{0}, q _{2}$   \hspace*{0.5cm}  $b) q _{0}, q _{1}$   \hspace*{0.5cm}  $c) q _{1}, q _{2}$  \hspace*{0.5cm}   d) None of these\\
+
+\vspace*{0.3cm}
+
+\end{frame}
+
+\begin{frame}
+
+\vspace*{3mm}
+\hspace{-0.5cm}
+3. Consider the following DFA in which $S_0$ is the start state and $S_1$ and $S_3$ are the fi nal states. Which
+one is true?\\
+\vspace*{3mm}
+
+\begin{center}
+\section{picture}
+\includegraphics[width=4cm,height=3cm]{121-2.png}
+\end{center}
+
+\vspace*{3mm}
+\hspace{0.5cm}
+
+a) All strings of x and y.\\
+b) All strings of x and y which have either an even number of x and even number of y or an odd
+number of x and odd number of y.\\
+c) All strings of x and y which have an equal number of x and y.\\
+d) All strings of x and y which have either an even number of x and odd number of y or an odd
+number of x and even number of y.\\
+\vspace*{3mm}
+
+\vspace*{0.2cm}
+\end{frame}
+
+\begin{frame}
+4. Let N be an NFA with n states and let M be the minimized DFA with m states recognizing the
+same language. Which of the following is NECESSARILY true?\\
+
+\vspace*{3mm}
+\hspace{0.5cm}
+$a) m \leq 2 ^{n}$  \hspace*{0.5cm}  $b) n \leq m$  \hspace*{0.5cm}   c) M has one accept state  \hspace*{0.5cm}  $d) m = 2 ^{n}$ \\
+\vspace*{3mm}
+
+\vspace*{0.2cm}
+5. If the final state and non-final states in the following DFA are interchanged, then which of the
+following languages over the alphabet (a, b) will be accepted by the new DFA?\\
+
+\begin{center}
+\section{picture}
+\includegraphics[width=5cm,height=3cm]{121-3.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\section*{GATE Questions}
+ \begin{flushleft}
+    \textbf{122}\hspace*{0.1cm} \textbf{$|$} \hspace*{0.1cm} \texttt{Introduction to Automata Theory, Formal Languages and Computation}
+  \end{flushleft}
+\vspace*{0.4cm}
+
+\vspace*{3mm}
+
+\hspace{0.5cm}
+a) Set of all strings that do not end with ab\\
+\hspace{0.5cm}
+b) Set of all strings that begin with either an a or a b.\\
+\hspace{0.5cm}
+c) Set of all strings that do not contain the substring ab.\\
+\hspace{0.5cm}
+d) The set described by the regular expression $b^{*}aa^{*}(ba)^{*}b^{*}$ \\
+
+\vspace*{3mm}
+
+\vspace*{0.2cm}
+6. A finite state machine with the following state table has a single input x and a single output z.\\
+
+\begin{center}
+\begin{tabular}{ccc}
+\hline
+
+\hline
+
+\hline
+
+\hline
+  \multicolumn{3}{r}{{Next State,z}}\\
+ \cline{2-3}
+{Present State} & {X=0} & {X=1}\\
+\hline
+A & D, 0 & B, 0\\
+B & B, 1 & C, 1\\
+C & B, 0 & D, 1\\
+D & B, 1 & C, 0\\
+\hline
+
+\hline
+
+\hline
+
+\hline
+\end{tabular}
+\end{center}
+
+\vspace*{0.2cm}
+\end{frame}
+
+\begin{frame}
+\vspace*{3mm}
+\hspace{0.5cm}
+If the initial state is unknown, then the shortest input sequence to reach the final state C is:\\
+
+\vspace*{0.2cm}
+\hspace{0.5cm}
+$a) 01$  \hspace*{0.5cm}  $b) 10$  \hspace*{0.5cm}   c) 101  \hspace*{0.5cm}  $d) 110$ \\
+\vspace*{0.2cm}
+
+\vspace*{0.2cm}
+7. Which of the following sets can be recognized by a deterministic finite state automaton?\\
+
+\vspace*{3mm}
+
+\hspace{0.5cm}
+a) The numbers $1, 2, 4, 8, . . . 2 ^{n}$ written in binary.\\
+\hspace{0.5cm}
+b) The numbers $1, 2, 4, . . . 2 ^{n}$ written in unary.\\
+\hspace{0.5cm}
+c) The set of binary string in which the number of zeros is the same as the number of ones.\\
+\hspace{0.5cm}
+d) The set $\{1, 101, 11011, 1110111, . . .\}$ \\
+
+\vspace*{3mm}
+
+8. Consider the regular expression $(0 + 1)(0 + 1) . . . . . N$ times. The minimum state FA that recognizes
+the language represented by this regular expression contains\\
+
+\vspace*{0.2cm}
+\hspace{0.5cm}
+a) n states  \hspace*{0.5cm}  $b) (n + 1) states$  \hspace*{0.5cm}   c) $(n + 2) states$  \hspace*{0.5cm}  d) None of the above \\
+\vspace*{0.2cm}
+
+\end{frame}
+
+\begin{frame}
+9. What can be said about a regular language L over $\{a\}$ whose minimal finite state automation has
+two states?\\
+
+\vspace*{0.2cm}
+\hspace{0.5cm}
+a) L must be $\{an | n is odd\}$     \hspace{0.5cm}   b) L must be $\{an | n is even\}$ \\
+\hspace{0.5cm}
+c) L must be $\{an | n \geq 0\}$     \hspace{0.5cm}   d) Either L must be $\{an | n is odd\}$ or L must be $\{an | n is even\}$ \\
+\vspace*{0.2cm}
+
+10. The smallest FA which accepts the language $\{x | length of x is divisible by 3\}$ has\\
+
+\vspace*{0.2cm}
+\hspace{0.5cm}
+a) 2 states  \hspace*{0.5cm}  b) 3 states  \hspace*{0.5cm}   c) 4 states  \hspace*{0.5cm}  d) 5 states \\
+\vspace*{0.2cm}
+
+11. Consider the following deterministic fi nite state automaton M.\\
+
+\begin{center}
+\section{picture}
+\includegraphics[width=6cm,height=1.5cm]{122.png}
+\end{center}
+
+\hspace{0.5cm}
+Let S denote the set of seven-bit binary strings in which the fi rst, fourth, and last bits are 1. The
+number of strings in S that are accepted by M is \\
+\vspace*{0.2cm}
+
+\hspace{0.5cm}
+a) 1  \hspace*{0.5cm}  b) 5  \hspace*{0.5cm}   c) 7  \hspace*{0.5cm}  d) 8 \\
+\vspace*{0.2cm}
+\end{frame}
+
+\begin{frame}
+\section*{GATE Questions}
+\begin{flushright}
+ \texttt{Finite Automata} \hspace*{1cm} \textbf{123}
+\end{flushright}
+
+\vspace*{0.5cm}
+12. The following finite state machine accepts all those binary strings in which the number of 1’s and
+0’s are, respectively,\\
+
+\begin{center}
+\section{picture}
+\includegraphics[width=6cm,height=3cm]{123-1.png}
+\end{center}
+
+\vspace*{0.2cm}
+\hspace{0.5cm}
+a) divisible by 3 and 2     \hspace{0.5cm}   b) odd and even \\
+\hspace{0.5cm}
+c) even and odd             \hspace{1cm}   d) divisible by 2 and 3 \\
+\vspace*{0.2cm}
+
+\vspace*{0.2cm}
+\end{frame}
+
+\begin{frame}
+13. Consider the machine M.\\
+
+\begin{center}
+\section{picture}
+\includegraphics[width=7cm,height=3cm]{123-1.png}
+\end{center}
+
+\vspace*{0.2cm}
+\hspace{0.5cm}
+The language recognized by M is:\\
+
+\vspace*{0.2cm}
+\hspace{0.5cm}
+a) $\{w \varepsilon\{a, b\}^{*} | every a in w is followed by exactly two b’s\}$\\
+\hspace{0.5cm}
+b) $\{w \varepsilon\{a, b\}^{*} | every a in w is followed by at least two b’s\}$\\
+\hspace{0.5cm}
+c) $\{w \varepsilon\{a, b\}^{*} | w contains the substring ‘abb’\}$\\
+\hspace{0.5cm}
+d) $\{w \varepsilon\{a, b\}^{*} | w does not contain ‘aa’ as a substring\}$\\
+\end{frame}
+
+\begin{frame}
+14. A minimum state deterministic FA accepting the language $L = \{w | w \varepsilon \{0, 1\}^{*}\}$ where number of
+0’s and 1’s in w are divisible by 3 and 5, respectively, has\\
+
+\vspace*{0.2cm}
+\hspace{0.5cm}
+a) 15 states  \hspace*{0.5cm}  b) 11 states  \hspace*{0.5cm}   c) 10 states  \hspace*{0.5cm}  d) 9 states \\
+\vspace*{0.2cm}
+
+\begin{multicols}{2}
+Y:
+\begin{center}
+\begin{tabular}{|c|c|c|}
+
+\hline
+  & a & b \\
+\hline
+$\rightarrow$ 1 & 1 & 2 \\
+\hline
+2(F) & 2 & 1 \\
+\hline
+
+\end{tabular}
+\end{center}
+
+
+Z:
+\begin{center}
+\begin{tabular}{|c|c|c|}
+
+\hline
+  & a & b \\
+\hline
+$\rightarrow$ 1 & 2 & 2 \\
+\hline
+2(F) & 1 & 1 \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{multicols}
+
+\vspace*{0.2cm}
+
+\hspace{0.5cm}
+Which of the following represents the product automaton $Z \times Y$?\\
+
+\vspace*{0.2cm}
+\end{frame}
+
+\begin{frame}
+\section*{GATE Questions}
+ \begin{flushleft}
+    \textbf{124}\hspace*{0.1cm} \textbf{$|$} \hspace*{0.1cm} \texttt{Introduction to Automata Theory, Formal Languages and Computation}
+  \end{flushleft}
+\vspace*{0.4cm}
+
+\begin{multicols}{4}
+
+a)
+\begin{center}
+\begin{tabular}{|c|c|c|}
+
+\hline
+  & a & b \\
+\hline
+$\rightarrow$ P & S & R \\
+\hline
+Q & R & S \\
+\hline
+R(F) & Q & P \\
+\hline
+S & Q & P \\
+\hline
+
+\end{tabular}
+\end{center}
+
+b)
+\begin{center}
+\begin{tabular}{|c|c|c|}
+
+\hline
+  & a & b \\
+\hline
+$\rightarrow$ P & S & Q \\
+\hline
+Z & R & S \\
+\hline
+R(F) & Q & P \\
+\hline
+S & P & Q \\
+\hline
+
+\end{tabular}
+\end{center}
+
+c)
+\begin{center}
+\begin{tabular}{|c|c|c|}
+
+\hline
+  & a & b \\
+\hline
+$\rightarrow$ P & Q & S \\
+\hline
+Q & R & S \\
+\hline
+R(F) & Q & P \\
+\hline
+S & Q & P \\
+\hline
+
+\end{tabular}
+\end{center}
+
+d)
+\begin{center}
+\begin{tabular}{|c|c|c|}
+
+\hline
+  & a & b \\
+\hline
+$\rightarrow$ P & S & Q \\
+\hline
+Q & S & R \\
+\hline
+R(F) & Q & P \\
+\hline
+S & Q & P \\
+\hline
+
+\end{tabular}
+\end{center}
+
+\end{multicols}
+
+16.
+\begin{center}
+\section{picture}
+\includegraphics[width=6cm,height=1.7cm]{124-1.png}
+\end{center}
+
+\vspace*{0.2cm}
+\end{frame}
+
+\begin{frame}
+\hspace*{0.5cm} The given DFA accepts the set of all strings over $\{0, 1\}$ that\\
+
+\vspace*{0.1cm}
+\hspace{0.5cm} a) begin either with 0 or 1.    \hspace{1cm}  b) end with 0\\
+\hspace{0.5cm} c) end with 00.                 \hspace{2cm}  d) contain the substring 00.\\
+
+\vspace*{0.2cm}
+17. Let w be any string of length n in $\{0, 1\}^{*}$. Let L be the set of all substrings of w. What is the minimum
+number of states in a non-deterministic FA that accepts L?\\
+\vspace*{0.1cm}
+
+\hspace*{0.5cm} $a) n - 1$   \hspace*{0.5cm} $b) n$   \hspace*{0.5cm} $c) n + 1$     \hspace*{0.5cm} $d) 2^{n - 1}$ \\
+
+\vspace*{0.2cm}
+18. Definition of a language L with alphabet $\{a\}$ is given as following $\{a^{nk} | k > 0$ and n is a positive
+integer constant$\}$ \\
+\vspace*{0.1cm}
+
+\hspace*{0.5cm} What is the minimum number of states needed in a DFA to recognize L?\\
+
+\vspace*{0.1cm}
+\hspace*{0.5cm} $a) k + 1$    \hspace*{0.5cm} $b) n + 1$     \hspace*{0.5cm} $c) 2^{n + 1}$    \hspace*{0.5cm} $d) 2^{k + 1}$\\
+
+\end{frame}
+
+\begin{frame}
+19. A deterministic finite automation (DFA) D with alphabet $\Sigma = \{a, b\}$ is given as follows:\\
+
+\begin{center}
+\section{picture}
+\includegraphics[width=6cm,height=2cm]{124-2.png}
+\end{center}
+
+\vspace*{0.2cm}
+\hspace*{0.5cm} Which of the following fi nite state machines is a valid minimal DFA which accepts the same
+language as D?\\
+
+\begin{center}
+\section{picture}
+\includegraphics[width=11cm,height=3cm]{124-3.png}
+\end{center}
+\end{frame}
+\end{document}
