@@ -8,4 +8,4 @@
 ## Certificate
 + [JavaScript](https://github.com/akbarsoltanzadeh/PNU_3991_AR/blob/main/Certificate%20JS.jpg?raw=true)
 ## [Resume](https://cvbuilder.me/Resume/fa/5479446c-8335-4810-9c59-e00ad21c4b90?template=template25)
-## sop
+## [ارزیابی](https://github.com/akbarsoltanzadeh/PNU_3991_AR/blob/main/AS_Theory-of-Languages-and-Machines_CheckList_AR_3991.docx)
