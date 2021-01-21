@@ -7,5 +7,5 @@
 + [pdf](https://github.com/akbarsoltanzadeh/PNU_3991_AR/blob/main/%D8%A7%DA%A9%D8%A8%D8%B1%20%D8%B3%D9%84%D8%B7%D8%A7%D9%86%20%D8%B2%D8%A7%D8%AF%D9%87_%D9%84%D8%A7%D8%AA%DA%A9(121-124).pdf)
 ## Certificate
 + [JavaScript](https://github.com/akbarsoltanzadeh/PNU_3991_AR/blob/main/Certificate%20JS.jpg?raw=true)
-## Resume
+## [Resume](https://cvbuilder.me/Resume/fa/5479446c-8335-4810-9c59-e00ad21c4b90?template=template25)
 ## sop
